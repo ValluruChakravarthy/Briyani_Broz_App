@@ -180,9 +180,9 @@ function LandingPage() {
         </h2>
 
         <p className="mt-4 max-w-xl text-lg md:text-xl text-gray-700">
-          Not just bros cooking biryani..
+          Not only Biryani..
           <br />
-          Bro's cooking India..
+          But all the delicacies..
         </p>
 
         {/* Buttons */}
