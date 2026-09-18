@@ -17,7 +17,7 @@ function Menu(){
 
   async function getdata(){
     try{
-        const response = await axios("https://dummyjson.com/recipes?limit=100");
+        const response = await axios("https://dummyjson.com/recipes?limit=150");
         setRecipes(response.data.recipes)
         setCuisine(response.data.cuisine)
     }
