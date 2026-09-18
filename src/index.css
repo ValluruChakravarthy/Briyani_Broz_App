@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes bounceSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 2.4s ease-in-out infinite;
+}
+
+@keyframes fadePop {
+  0% { opacity: 0; transform: scale(1); }
+  20% { opacity: 1; transform: scale(1.9); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.6); }
+}
+
+.animate-fade-pop {
+  animation: fadePop 0.1s ease-in-out; /* Changed from 0.2s to 0.1s */
+}
