@@ -5,31 +5,29 @@ function LandingPage() {
   return (
     <div className="relative min-h-[calc(100vh-80px)] overflow-hidden bg-[#FAF8F5]">
 
-
       <img
         src="/beet.png"
         alt="beet"
-        className="absolute w-[7vw] top-[10%] left-[8%] animate-fade-pop"
+        className="absolute w-[7vw] top-[10%] left-[8%] float-1"
       />
 
       <img
         src="/lettuce.png"
         alt="lettuce"
-        className="absolute w-[7vw] top-[18%] right-[10%] animate-fade-pop"
+        className="absolute w-[7vw] top-[18%] right-[10%] float-2"
       />
 
       <img
         src="/onion.png"
         alt="onion"
-        className="absolute w-[6vw] bottom-[15%] left-[15%] animate-fade-pop"
+        className="absolute w-[6vw] bottom-[15%] left-[15%] float-3"
       />
 
       <img
         src="/beet.png"
         alt="beet"
-        className="absolute w-[5vw] bottom-[20%] right-[15%] animate-fade-pop"
+        className="absolute w-[5vw] bottom-[20%] right-[15%] float-4"
       />
-
 
       {/* Main content */}
 
@@ -63,7 +61,6 @@ function LandingPage() {
           Bro's cooking India..
         </p>
 
-
         {/* Buttons */}
 
         <div className="flex gap-4 mt-8">
@@ -95,3 +92,4 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
