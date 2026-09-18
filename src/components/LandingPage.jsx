@@ -49,18 +49,18 @@ function LandingPage() {
 
         <h1 className="mt-4 text-[8vw] md:text-[5vw]
           font-extrabold tracking-tight italic text-black">
-          BABAI'S
+          BIRYANI....
         </h1>
 
         <h2 className="text-[6vw] md:text-[3.5vw]
           font-extrabold tracking-tight italic text-amber-600">
-          BIRYANIS
+          Broz...
         </h2>
 
         <p className="mt-4 max-w-xl text-lg md:text-xl text-gray-700">
-          Not just biryani.
+          Not just bros cooking biryani..
           <br />
-          A whole lot of India, cooked with love.
+          Bro's cooking India..
         </p>
 
 

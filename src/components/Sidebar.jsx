@@ -18,6 +18,7 @@ const {user}= useAuth();
     }
 
     onClickClose();
+    navigate('/');
   };
 
   const linkClass=({ isActive }) =>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar({onClickMenu}){
     const { user } = useAuth();
-
+    if(!user){return null;}
     const displayName = user
   ? user.user_metadata.full_name
   : "Test User";

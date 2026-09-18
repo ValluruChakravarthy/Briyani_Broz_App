@@ -25,7 +25,7 @@ const formatDate = (date) => {
     const { data, error } = await supabase
       .from("Chakri_Restaurant_DB")
       .select("*")
-      .eq("Email", user.email);
+      .eq("user_id",user.id);
 
     if (error) {
       console.log(error);
