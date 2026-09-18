@@ -26,7 +26,8 @@ const Signup = () => {
       data: {
         full_name: fullname,
       },
-      emailRedirectTo: "http://localhost:5173/Login",
+      //without this after clicking confirm in gmail its going to crashed giving 404
+      emailRedirectTo: '${window.location.origin}/Login',
     },
   });
 
