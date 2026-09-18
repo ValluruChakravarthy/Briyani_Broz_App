@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link ,useNavigate} from "react-router-dom";
 import supabase from "../../supabase";
 
 const Signup = () => {
@@ -10,6 +10,8 @@ const Signup = () => {
   const [loading, setLoading] = useState(false);
 
   const [fullname, setFullname] = useState("");
+
+  const navigate=useNavigate();
 
   const handleSignup = async (e) => {
     e.preventDefault();
@@ -34,8 +36,8 @@ const Signup = () => {
       console.log("Signup successful:", data);
     }
 
-    setLoading(false);
-    setLoading("Please close this tab and check your email")
+setLoading(false);
+navigate("/CheckEmail");
   };
 
   return (

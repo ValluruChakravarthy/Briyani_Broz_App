@@ -10,6 +10,7 @@ import Signin from './components/LoginFeature/Signin';
 import ProtectedRoute from './components/LoginFeature/ProtectedRoute';
 import Profile from './components/Profile';
 import LandingPage from './components/LandingPage';
+import EmailCheck from './components/LoginFeature/EmailCheck';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Footer from './components/Footer';
 
@@ -33,7 +34,9 @@ return(
             <Route path="/Reservations" element={<TableReservations />} />
             <Route path="/Profile" element={<Profile />} />
             </Route>
+
              <Route path="/" element={<LandingPage/>}/>
+             <Route path="/CheckEmail" element={<EmailCheck />} />
        /*Keeping outlets for Login beacuse it has signup,register,forgotpass etc
       <Route path="/Login" element={<Loginpage />}>
         <Route index element={<Signin />} />
